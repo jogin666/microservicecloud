@@ -12,8 +12,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cloudDB02?allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
-    username: root
+    url: jdbc:mysql://localhost:3306/cloudDB01?serverTimezone=GMT%2B8    username: root
     password: zy131456
     dpcp2:
       min-idle: 5
