@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name:  microservicecloud-zuul-gateway
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+    instance:
+      instance-id: gateway-8080.com
+      perfer-id-address: true
+
+zuul:
+  prefix: /springcloud
+  ignore-service: "*"
+  routes:
+    api-a:
+      path: /dept/**
+      servive-id: microservicecloud-dept
+
+info:
+    app.name: zy-microcloud
+    company.name: www.zy.com
+    build.artifactId: $project.artifactId$
+    build.version: $project.version$

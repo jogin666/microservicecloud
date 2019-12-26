@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer2_fegin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer3_hystrix_dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dept_entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka_server1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka_server2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka_server3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider_dept1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider_dept2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider_dept3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider_dept4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul_gateway_8080" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config_3344" />
+        <module name="config_client_3355" />
+        <module name="consumer1" />
+        <module name="consumer2" />
+        <module name="consumer3" />
+        <module name="dept_client_8001" />
+        <module name="eureka_client_7001" />
+        <module name="microservicecloud-api" />
+        <module name="provider_dept_8001" />
+        <module name="provider_dept_8001_hystrix" />
+        <module name="provider_dept_8002" />
+        <module name="provider_dept_8003" />
+        <module name="server1" />
+        <module name="server2" />
+        <module name="server3" />
+        <module name="zuul_gateway_8080" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client1" target="1.8" />
+      <module name="client1 (1)" target="1.8" />
+      <module name="config_client3355" target="1.8" />
+      <module name="consumer2_hystrix" target="1.8" />
+      <module name="consumer3_hystrix_dashboard" target="1.8" />
+      <module name="dept_provider_8001" target="1.8" />
+      <module name="entity_api" target="1.8" />
+      <module name="microservicecloudapi" target="1.8" />
+      <module name="server1_7001" target="1.8" />
+      <module name="server2_7002" target="1.8" />
+      <module name="server3_7003" target="1.8" />
+      <module name="server_7001" target="1.8" />
+      <module name="server_7002" target="1.8" />
+      <module name="server_7003" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="provider_dept_8001_hystrix" options="" />
+    </option>
+  </component>
+</project>
