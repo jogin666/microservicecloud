@@ -2,7 +2,9 @@
 
 在上一篇《<a href="">Spring Cloud 篇章（二）快速入门篇</a>》快速搭建了一个十分简单的 Spring Cloud 的入门 demo，此篇
 
-章根据使用根据网上（<a href="https://github.com/ZhongFuCheng3y/msc-Demo/tree/master/microservicecloud">msc- Demo</a>）的资源，搭建一个有集群的 Spring Cloud  demo。 
+章根据使用根据 java3y 的（<a href="https://github.com/ZhongFuCheng3y/msc-Demo/tree/master/microservicecloud">msc- Demo</a>）资源，搭建一个有集群的 Spring Cloud  demo。 
+
+github地址：https://github.com/jogin666/microservicecloud
 
 
 
@@ -116,13 +118,13 @@ public class DeptConsumer_2_80 {
 
 启动consumer-hystrix-dashboard项目，打开`http://localhost:9001/hystrix.stream`
 
-![dashboard](D:\Typora\projects\微服务、分布式\springcloud\images\dashboard.png)
+![dashboard](https://github.com/jogin666/blog/blob/master/resource/spring%20family/spring%20cloud/images/dashboard.png)
 
 可以监控：`microservicecloud-provider-dept-hystrix-8001`这个项目，于是在输入栏输入`http://localhost:8001/hystrix.stream`
 
-![dashboard1](D:\Typora\projects\微服务、分布式\springcloud\images\dashboard1.png)
+![dashboard1](https://github.com/jogin666/blog/blob/master/resource/spring%20family/spring%20cloud/images/dashboard1.png)
 
-随后，测试接口：`http://localhost:8001/dept/get/7` ，监控的数据就会变化了：![dashboard3](D:\Typora\projects\微服务、分布式\springcloud\images\dashboard3.png)
+随后，测试接口：`http://localhost:8001/dept/get/7` ，监控的数据就会变化了：![dashboard3](https://github.com/jogin666/blog/blob/master/resource/spring%20family/spring%20cloud/images/dashboard3.png)
 
 **2.5 配置中心**
 
@@ -138,5 +140,4 @@ SpringCloud Config 客户端：
 
 最后退下项目工程图：
 
-![项目工程（集群）](D:\Typora\projects\微服务、分布式\springcloud\images\项目工程（集群）.png)
-
+![项目工程（集群）](https://github.com/jogin666/blog/blob/master/resource/spring%20family/spring%20cloud/images/%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88%E9%9B%86%E7%BE%A4%EF%BC%89.png)
